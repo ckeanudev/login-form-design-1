@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(./IMG/leaves_plant_green_136320_1600x900.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.login-form {
+  background-color: #1e272e;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+  width: 60%;
+  height: 75%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: 50%;
+  height: 100%;
+  transition: 0.9s ease;
+}
+
+.sign-in {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in form {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.col-2 {
+  width: 50%;
+  height: 100%;
+  transition: 0.9s ease;
+}
+
+.sign-up {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up form {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+form button {
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  background-color: #dcdde1;
+}
+
+.cover {
+  position: absolute;
+  width: 30%;
+  height: 75%;
+  background-color: #dcdde1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(50%);
+  transition: 0.7s ease-out;
+  z-index: 3;
+}
+
+.cover-btn {
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border: 4px solid #1e272e;
+  background-color: #1e272e;
+  color: #fff;
+  transition: 0.4s ease;
+  letter-spacing: 1px;
+}
+
+.cover-btn:hover {
+  background-color: #dcdde1;
+  color: #1e272e;
+  letter-spacing: 3px;
+}
